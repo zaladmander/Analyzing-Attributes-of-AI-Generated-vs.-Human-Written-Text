@@ -8,6 +8,6 @@ In this project, we will set out to see if we can identify subtle statistical fi
 
 ## Analytics Questions 
 
-On average, are AI or human written texts more complex? (e.g. rare vocabulary)
-Does the plagiarism score meaningfully separate AI from human written texts?
-Do humans show more irregularity when writing? (e.g. do the number of unique words and sentence length vary within the same text?)
+- On average, are AI or human written texts more complex? (e.g. rare vocabulary)
+- Does the plagiarism score meaningfully separate AI from human written texts?
+- Do humans show more irregularity when writing? (e.g. do the number of unique words and sentence length vary within the same text?)
