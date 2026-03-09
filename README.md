@@ -11,3 +11,41 @@ In this project, we will set out to see if we can identify subtle statistical fi
 - On average, are AI or human written texts more complex? (e.g. rare vocabulary)
 - Does the plagiarism score meaningfully separate AI from human written texts?
 - Do humans show more irregularity when writing? (e.g. do the number of unique words and sentence length vary within the same text?)
+
+
+## How to Run
+
+First, you should probably be in a virtual environment. Make sure you are in the root directory. i.e., for dummies, that is the highest highest highest level folder (it contains the README.md) Then, set that up using
+```
+python3 -m venv .venv
+```
+or for windows
+```
+python -m venv .venv
+```
+
+then activate that with
+```
+source .venv/bin/activate
+```
+or for windows... (command prompt)
+```
+.venv\Scripts\activate
+```
+(for powershell instead)
+```
+.venv\Scripts\Activate.ps1
+```
+
+then do
+```
+pip install -r requirements.txt
+```
+
+finally, run 
+```
+yeah i aint done this yet
+```
+
+after that command finishes, the `data/raw` directory should be populated :DDDDD with a csv file called "ai_vs_human_dataset_medium"
+

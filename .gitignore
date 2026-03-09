@@ -1,0 +1,41 @@
+# -----------------------------
+# Python virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Data files (downloaded)
+# -----------------------------
+data/raw/
+data/clean/
+
+# intermediate files
+data/tmp/
+
+# Large datasets
+*.csv
+*.zip
+*.parquet
+
+# -----------------------------
+# Jupyter notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# MacOS nonsense
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# VSCode settings
+# -----------------------------
+.vscode/
