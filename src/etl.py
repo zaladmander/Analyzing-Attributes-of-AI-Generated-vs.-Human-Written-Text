@@ -1,6 +1,7 @@
 import pandas as pd
 from utils.paths import RAW_DATA_FILE
 
+# just if you want to see some output while running the script
 verbose = bool(int(input("Verbose output? (0 or 1): ")))
 
 df = pd.read_csv(RAW_DATA_FILE)
