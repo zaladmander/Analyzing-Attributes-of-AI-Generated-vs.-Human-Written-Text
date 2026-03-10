@@ -1,0 +1,17 @@
+name: ai-human-text-analysis-database
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: ai_human_text_analysis_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: clean_data
+    ports: 
+      - "3367:3367"
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
