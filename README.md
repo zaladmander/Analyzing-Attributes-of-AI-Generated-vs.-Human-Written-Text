@@ -44,8 +44,8 @@ pip install -r requirements.txt
 
 finally, run 
 ```
-yeah i aint done this yet
+python src/setup_pipeline.py
 ```
 
-after that command finishes, the `data/raw` directory should be populated :DDDDD with a csv file called "ai_vs_human_dataset_medium"
+after that command finishes, you should be ready to do your analysis questions!!! :DDDD the mysql in docker should have the clean data. check the compose.yaml or load_to_mysql.py file for examples on how to access the database.
 
