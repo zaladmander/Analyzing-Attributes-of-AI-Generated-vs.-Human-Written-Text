@@ -51,7 +51,7 @@ after that command finishes, you should be ready to do your analysis questions!!
 
 ## Connecting PowerBI to MySQL Database
 
-#Install MySQL Connector
+# Install MySQL Connector
 
 Power BI requires a specific MySQL driver.
 
@@ -73,7 +73,7 @@ If you see **"Components not installed"**, do this:
 
 docker-compose up -d
 
-#Connect Power BI to MySQL
+# Connect Power BI to MySQL
 
 1. Open Power BI Desktop
 2. Click Get Data → MySQL database
