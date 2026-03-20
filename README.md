@@ -1,6 +1,6 @@
 # Analyzing-Attributes-of-AI-Generated-vs.-Human-Written-Text
 
-This dataset contains ~1000 of AI-generated vs. human-written text, as well as values like author type (AI vs. human), model source (human, ChatGPT, Claude, etc.).
+This dataset contains ~500 rows of AI-generated vs. human-written text, as well as values like author type (AI vs. human), model source (human, ChatGPT, Claude, etc.).
 
 https://www.kaggle.com/datasets/prince7489/ai-vs-human-comparison-datasetLinks to an external site.
 
