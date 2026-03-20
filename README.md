@@ -1,8 +1,8 @@
 # Analyzing-Attributes-of-AI-Generated-vs.-Human-Written-Text
 
-This dataset contains ~500 rows of AI-generated vs. human-written text, as well as values like author type (AI vs. human), model source (human, ChatGPT, Claude, etc.).
+This dataset contains ~500 rows of AI-generated vs. human-written text, as well as values like author type (AI vs. human), model source (human, ChatGPT, Claude, etc.):
 
-https://www.kaggle.com/datasets/prince7489/ai-vs-human-comparison-datasetLinks to an external site.
+https://www.kaggle.com/datasets/prince7489/ai-vs-human-comparison-dataset
 
 In this project, we will set out to see if we can identify subtle statistical fingerprints (like word variety and sentence structure) that distinguish AI writing from human writing and further see if we can distinguish writing styles among different LLMs.
 
