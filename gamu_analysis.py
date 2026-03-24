@@ -121,3 +121,5 @@ cursor.close()
 conn.close()
 
 print(f"\nWrote {len(results_df)} rows to gamu_analysis table.")
+results_df.columns = ["id", "label", "source_detail", "ttr", "sent_len_std"]
+results_df.to_csv("gamu_analysis.csv", index=False)
