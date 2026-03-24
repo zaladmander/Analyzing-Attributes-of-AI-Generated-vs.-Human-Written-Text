@@ -40,11 +40,11 @@ group by label, source_detail"""
 interAiData = pd.read_sql(interAiQuery, connection)
 
 # export to csv
-os.makedirs("data/clean/", exist_ok=True)
+os.makedirs("Cleaned Data CSVs/text_complexity/", exist_ok=True)
 
-humanVsAiData.to_csv("data/clean/human_vs_ai_text_complexity.csv", index=False)
-humanVsAiWithTopicsData.to_csv("data/clean/human_vs_ai_topics_text_complexity.csv", index=False)
-interAiData.to_csv("data/clean/inter_ai_text_complexity.csv", index=False)
+humanVsAiData.to_csv("Cleaned Data CSVs/text_complexity/human_vs_ai_text_complexity.csv", index=False)
+humanVsAiWithTopicsData.to_csv("Cleaned Data CSVs/text_complexity/human_vs_ai_topics_text_complexity.csv", index=False)
+interAiData.to_csv("Cleaned Data CSVs/text_complexity/inter_ai_text_complexity.csv", index=False)
 print(f"\nWrote data to csv files.")
 
 connection.close()
