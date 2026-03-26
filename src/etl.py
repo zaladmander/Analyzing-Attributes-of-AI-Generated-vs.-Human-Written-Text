@@ -18,6 +18,11 @@ if verbose:
     print("Data after sorting and resetting index:")
     print(df.head())
 
+if verbose:
+    print("Variables and their data types:")
+    for col in df.columns:
+        print(f"  {col}: {df[col].dtype}")
+
 # make the clean directory under data if it doesn't exist
 CLEAN_DATA.mkdir(parents=True, exist_ok=True)
 
