@@ -1,3 +1,13 @@
+# Exclude venv
+.venv/
+
+# Exclude Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Exclude CSV files
+*.csv
 # -----------------------------
 # Python virtual environments
 # -----------------------------
