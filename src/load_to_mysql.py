@@ -6,7 +6,7 @@ import mysql.connector
 import pandas as pd
 from mysql.connector import errorcode
 
-from utils.paths import CLEAN_DATA_FILE
+from src.utils.paths import CLEAN_DATA_FILE
 
 DB_CONFIG = {
     "user": os.getenv("MYSQL_USER", "root"),
