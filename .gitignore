@@ -15,7 +15,7 @@ __pycache__/
 # Data files (downloaded)
 # -----------------------------
 data/raw/
-data/clean/
+data/clean/clean_data.csv
 
 # intermediate files
 data/tmp/
@@ -24,6 +24,8 @@ data/tmp/
 *.csv
 *.zip
 *.parquet
+# Allow docs in data/clean (override above)
+!data/clean/docs/clean_data_dictionary.*
 
 # -----------------------------
 # Jupyter notebook checkpoints

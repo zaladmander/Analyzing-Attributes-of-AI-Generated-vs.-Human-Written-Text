@@ -1,0 +1,14 @@
+
+readable_var,var_name,type,allowed_values,description
+ID,id,int64,,Unique row identifier
+Label,label,str,,Categorical label
+Topic,topic,str,,Topic or category of the text
+Text,text,str,,Main article or passage text
+Length_chars,length_chars,int64,,Character length of text
+Length_words,length_words,int64,,Word count of text
+Quality_score,quality_score,float64,,Human or automatic quality rating
+Sentiment,sentiment,float64,,Sentiment score (e.g., -1 to 1)
+Source_detail,source_detail,str,,More granular source information
+Timestamp,timestamp,str,,ISO timestamp or original date string
+Plagiarism_score,plagiarism_score,float64,,Estimated similarity/plagiarism score
+Notes,notes,str,,Freeform notes or flags
